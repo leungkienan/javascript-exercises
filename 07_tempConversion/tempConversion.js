@@ -6,7 +6,10 @@ const ftoc = function(n) {
 };
 
 const ctof = function(n) {
-
+  let fahrForm = 9/5
+  let i = (n*fahrForm)+32
+  let fahr = Math.round(i*10)/10
+  return fahr
 };
 
 // Do not edit below this line
